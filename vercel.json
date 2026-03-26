@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "devCommand": "npm run dev",
+  "env": {
+    "REACT_APP_API_URL": "@api_url"
+  },
+  "framework": "vite"
+}

@@ -16,3 +16,6 @@ Jinja2==3.1.2
 
 # Database (Compatible with Python 3.14)
 SQLAlchemy==2.0.48
+
+# Production server
+gunicorn==21.2.0
